@@ -112,41 +112,33 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "Dokumentacja użytkownika",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: "Aplikacja webowa",
+                to: "/docs/web/intro",
               },
             ],
           },
           {
-            title: "Community",
+            title: "Na skróty",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Offset Manager",
+                href: "https://offsetmanager.com",
               },
             ],
           },
           {
-            title: "More",
+            title: "Kontakt",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "biuro@gal-druk.pl",
+                href: "mailto:biuro@gal-druk.pl",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "office@cyberdynamics.dev",
+                href: "mailto:office@cyberdynamics.dev",
               },
             ],
           },
