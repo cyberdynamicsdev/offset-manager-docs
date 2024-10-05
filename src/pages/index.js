@@ -29,12 +29,12 @@ function HomepageHeader() {
           >
             Poradnik aplikacji webowej
           </Link>
-          <Link
+          {/* <Link
             className="button button--secondary button--lg"
             to="/docs/mobile"
           >
             Poradnik aplikacji mobilnej
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>

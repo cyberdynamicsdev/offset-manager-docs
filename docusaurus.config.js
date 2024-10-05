@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "pl",
-    locales: ["pl", "en"],
+    locales: ["pl"],
   },
 
   presets: [
@@ -97,10 +97,10 @@ const config = {
             label: "Web",
           },
           // { to: "/blog", label: "Blog", position: "left" },
-          {
-            type: "localeDropdown",
-            position: "right",
-          },
+          // {
+          //   type: "localeDropdown",
+          //   position: "right",
+          // },
           {
             href: "https://offsetmanager.com",
             label: "Offset Manager",
