@@ -23,10 +23,7 @@ function HomepageHeader() {
           automatyzację zamówień oraz analizę wydajności.
         </p>
         <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/web/intro"
-          >
+          <Link className="button button--secondary button--lg" to="/docs/web">
             Poradnik aplikacji webowej
           </Link>
           {/* <Link

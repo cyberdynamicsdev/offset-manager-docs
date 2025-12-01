@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: "Aplikacja webowa",
-                to: "/docs/web/intro",
+                to: "/docs/web",
               },
             ],
           },
