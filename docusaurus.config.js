@@ -40,8 +40,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          path: "docs/web",
-          routeBasePath: "docs/web",
+          path: "docs",
+          routeBasePath: "docs",
           sidebarPath: "./sidebarsWeb.js",
         },
         // blog: {
@@ -81,7 +81,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/om-social-card.jpg",
       navbar: {
         title: "Offset Manager Docs",
         logo: {
@@ -94,7 +94,7 @@ const config = {
             type: "docSidebar",
             sidebarId: "webSidebar",
             position: "left",
-            label: "Web",
+            label: "Dokumentacja",
           },
           // { to: "/blog", label: "Blog", position: "left" },
           // {

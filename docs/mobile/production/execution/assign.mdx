@@ -1,0 +1,32 @@
+---
+sidebar_position: 1
+---
+
+# Przypisanie surowców
+
+W zależności od rodzajów procesów produkcyjnych, przed rozpoczęciem realizacji zadań może być konieczne przypisanie odpowiednich surowców lub materiałów do konkretnych operacji produkcyjnych.
+Funkcja ta umożliwia użytkownikom aplikacji mobilnej szybkie i efektywne zarządzanie zasobami bezpośrednio z poziomu urządzenia mobilnego.
+
+## Wymogi przypisania surowców
+
+W poniższych sekcjach omówiono wymogi dotyczące przypisywania surowców do różnych typów procesów produkcyjnych.
+- **Wymagany przed rozpoczęciem** - określa, czy przypisanie surowca jest obowiązkowe przed rozpoczęciem procesu.
+- **Wymagany pomiar początkowy** - określa, czy przed przypisaniem surowca należy wprowadzić ilość początkową.
+- **Wymagana zgodność** - określa, czy przypisywany surowiec musi być zgodny z rezerwacją.
+- **Wymóg pojedynczego przypisania** - określa, czy do procesu można przypisać tylko jeden surowiec danego typu, czy też kilka jednocześnie.
+
+### Wymogi ogólne
+Wszystkie surowce mają następujące ogólne wymogi przypisania:
+- **Rezerwacja nie jest zakończona** - surowce można przypisywać tylko do procesów, dla których rezerwacja nie została zakończona ani anulowana.
+- **Rezerwacja nie jest zmodyfikowana** - surowce można przypisywać tylko do procesów, dla których rezerwacja nie jest oznaczona jako zmodyfikowana (oznaczenie usuwa kierownik produkcji).
+- **Surowiec jest tego samego typu** - surowce można przypisywać tylko do rezerwacji tego samego typu (np. papier do rezerwacji papieru, farby do rezerwacji farb).
+- **Surowiec jest dostępny** - surowce można przypisywać tylko wtedy, gdy nie są aktualnie używane w innych procesach, mają status `na stanie`, `wydane` lub `zwrócone` oraz ich ilość jest większa od `0`.
+
+
+### Drukowanie
+Przed rozpoczęciem procesu drukowania, użytkownik musi przypisać odpowiednie materiały eksploatacyjne, takie jak:
+
+| Surowiec               | Opis                                      |  Wymagany przed rozpoczęciem |  Wymagany pomiar początkowy  | Wymagana zgodność   |  Wymóg pojedynczego przypisania  |
+|----------------------|-------------------------------------------|---------------------------|-------------------|---------------------------------|---------------------------|
+| Papier               | Przypisanie do procesu dostarczonego z magazynu papieru         | **Tak**                          |  **Tak**     | **Tak**                          |           **Tak**                |
+| Farby                | Przypisanie do procesu odpowiednich farb         | *Nie*            |    *Nie*               | *Nie*                          |      *Nie*                     |
